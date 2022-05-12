@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+#blog-list {
+    padding: 10rem;
+}
+
+@media screen and (max-width: 1000px) {
+    #blog-list {
+        padding: 5rem 5rem;
+    }
+
+    #blog-list img {
+        height: 500;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #blog-list {
+        padding: 0;
+    }
+}
+
+/* #nex-pev a {
+  padding: 10px;
+  border: 3px solid #fd742d;
+  outline-width: solid #fd742d;
+  border-radius: 25px;
+} */
